@@ -42,3 +42,6 @@ Key takeaways:
     we arenot creating a age inside the computer, we are giving the meaningful name then the compiler translates the human friendly name into the memory 
     operations the computer actually understands.
     
+
+Memory Addresses:
+    

@@ -15,3 +15,5 @@ How it works Internally?
         compiler reads the keyword int and recognizes the data type, it reads age and it becomes the variable's idenfier
         Variable name : age
         Data type : int
+    Compiles knows an int occupies 4 bytes. it reserves enough memory for that variable .
+    
