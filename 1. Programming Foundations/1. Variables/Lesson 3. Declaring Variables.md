@@ -5,6 +5,7 @@ Variable Declaration:
         example: int age;
         This statement doesnot store a value.
         It creates and integer type, variable named age.
+        Variable declaration tells the compiler, introducing a new variable
 Declaration:
     int age;
 Initialization:
