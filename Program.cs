@@ -7,17 +7,17 @@ class Program
 {
     static void Main(string[] args)
     {
-        int age = 20;
-        int number = 50;
-        IncreaseAge(ref number);
-        Console.WriteLine(age);
-        Console.WriteLine(number);
-        
+        int area;
+        int perimeter;
+        CalculateRectangle(10,20, out area, out perimeter);
+        Console.WriteLine(area);
+        Console.WriteLine(perimeter);  
     }
 
-    public static void IncreaseAge(ref int age)
+    public static void CalculateRectangle(int width, int height, out int area, out int perimeter)
     {
-        age++;
-       // Console.WriteLine("age of method " + age);
+        area = width * height;
+        perimeter = width * width;
     }
+
 }
