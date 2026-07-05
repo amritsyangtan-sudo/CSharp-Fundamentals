@@ -12,6 +12,7 @@ class Program
         CalculateRectangle(10,20, out area, out perimeter);
         Console.WriteLine(area);
         Console.WriteLine(perimeter);  
+        List<int> number = new List<int>();
     }
 
     public static void CalculateRectangle(int width, int height, out int area, out int perimeter)
